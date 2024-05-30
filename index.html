@@ -6,6 +6,7 @@
     <title>Informações sobre Elden Ring</title>
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -13,15 +14,83 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Quem somos</a>
+                        <a href="#about">Sobre nós</a>
                     </li>
                     <li>
-                        <a href="#">Informações</a>
+                        <a href="#contato">Informações</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <audio controls src="./Audio/01. Elden Ring.mp3"></audio>
+    <section>
+        <div class="container">
+            <img class="capa" src="./images/capa.jpg" alt="Capa do jogo Elden Ring">
+        </div>
+        <div id="about">
+            <h2>Sobre nós</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, explicabo consequuntur repellat eius expedita ad dolorem nisi cum ullam, unde veniam voluptates molestias ipsum quos hic pariatur minus in fuga?
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora alias nihil tenetur. Accusamus architecto minima qui animi, tempore suscipit ratione temporibus molestias, autem inventore alias? Alias quaerat dolorum facere cupiditate.
+            </p>
+            <ul class="imgs">
+                <li><img src="./images/playstation.png" alt="Playstation"></li>
+                <li><img src="./images/xbox.png" alt="Xbox"></li>
+                <li><img src="./images/Steam_icon_logo.png" alt="Steam"></li>
+            </ul>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contats">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                </div>
+                <ul class="social">
+                    <li>
+                        <a href="#" title="Siga-nos no Instagram">
+                            <img src="./images/instagram.png" alt="Logo do Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga-nos no Facebook">
+                            <img src="./images/facebook.png" alt="Logo do Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Visite nosso canal no Youtube">
+                            <img src="./images/youtube.png" alt="Logo do Youtube">
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <h3>Venha ate nós</h3>
+                    <p>
+                        Rua JavaScript n° 420, Vila HTML - Rio Grande do Sul - RS
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
