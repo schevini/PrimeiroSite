@@ -20,6 +20,10 @@ textarea {
     font-family: 'reddit', 'sans-serif';
 }
 
+body {
+    background-color: rgb(28, 43, 43);
+}
+
 h1,
 header {
     font-family: 'mantinia', 'sans-serif';
